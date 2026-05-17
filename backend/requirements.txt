@@ -1,0 +1,16 @@
+# Core
+fastapi>=0.115.5
+uvicorn[standard]>=0.32.1
+python-dotenv>=1.0.1
+
+# LangGraph / LangChain
+langgraph>=0.2.55
+langchain>=0.3.12
+langchain-openai>=0.2.0
+langchain-core>=0.3.25
+
+# HTTP client
+requests>=2.32.3
+
+# Pydantic (2.11+ requis pour Python 3.14)
+pydantic>=2.11.0
